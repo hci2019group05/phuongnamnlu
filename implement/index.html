@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="../lib/fontawesome-free-5.11.2-web/css/all.min.css">
+</head>
+<body>
+<div id="containerboss">
+    <div class="top-box">
+        <div class="header-content">
+            <div class="paragraph">
+                <h1>FootBall Player</h1>
+            </div>
+            <div class="icon">
+                <a href="#" class="slow_fade social_button"><i class="far fa-futbol"></i></a>
+            </div>
+            <div class="choose">
+                <p>PLEASE CHOOSE</p>
+            </div>
+        </div>
+        <div class="center-box">
+            <div class="header-button">
+                <button type="button" onclick="document.getElementById('add').style.display='block'; document.getElementById('del').style.display='none';document.getElementById('edit').style.display='none';document.getElementById('search').style.display='none'">ADD</button>
+                <button type="button" onclick="document.getElementById('del').style.display='block'; document.getElementById('add').style.display='none';document.getElementById('edit').style.display='none';document.getElementById('search').style.display='none'">DEL</button>
+                <button type="button" onclick="document.getElementById('edit').style.display='block'; document.getElementById('add').style.display='none';document.getElementById('del').style.display='none';document.getElementById('search').style.display='none'">EDIT</button>
+                <button type="button" onclick="document.getElementById('add').style.display='none';document.getElementById('del').style.display='none';document.getElementById('edit').style.display='none'; document.getElementById('search').style.display='block'">SEARCH</button>
+<!--                <button type="button" onclick="document.getElementById('del').style.display='block'">DELETE</button>-->
+<!--                <button type="button" onclick="document.getElementById('edit').style.display='block'">EDIT</button>-->
+<!--                <button type="button" onclick="document.getElementById('search').style.display='block'">SEARCH</button>-->
+            </div>
+        </div>
+    </div>
+    <div id="add" style="display: none">
+        <form action="action_page.php">
+            <div class="container-add">
+                <h1>FOOTBALL PLAYER</h1>
+                <hr>
+
+                <label for="add"><b>Name</b></label>
+                <input type="text" placeholder="Enter Name" name="name" required>
+
+                <label for="add"><b>Age</b></label>
+                <input type="age" placeholder="Enter Age" name="age" required>
+
+                <label for="add"><b>Posittion</b></label>
+                <input type="posittion" placeholder="Posittion" name="posittion" required>
+
+                <label for="add"><b>Player value</b></label>
+                <input type="value" placeholder="Value" name="value" required>
+                <hr>
+
+                <button type="submit" class="registerbtn">ADD</button>
+            </div>
+        </form>
+    </div>
+    <div id="del" style="display: none">
+        <form action="action_page.php">
+            <div class="container-del">
+                <h1>FOOTBALL PLAYER</h1>
+                <hr>
+
+                <label for="del"><b>Name</b></label>
+                <input type="text" placeholder="Enter Name" name="name" required>
+
+                <label for="del"><b>Age</b></label>
+                <input type="age" placeholder="Enter Age" name="age" required>
+
+                <label for="del"><b>Posittion</b></label>
+                <input type="posittion" placeholder="Posittion" name="posittion" required>
+
+                <label for="del"><b>Player value</b></label>
+                <input type="value" placeholder="Value" name="value" required>
+                <hr>
+
+                <button type="submit" class="registerbtn">DELETE</button>
+            </div>
+        </form>
+    </div>
+    <div id="edit" style="display: none">
+        <form action="action_page.php">
+            <div class="container-edit">
+                <h1>FOOTBALL PLAYER</h1>
+                <hr>
+
+                <label for="edit"><b>Name</b></label>
+                <input type="text" placeholder="Enter name need repair" name="name" required>
+
+                <label for="edit"><b>Age</b></label>
+                <input type="age" placeholder="Enter age need repair" name="age" required>
+
+                <label for="edit"><b>Posittion</b></label>
+                <input type="posittion" placeholder="Posittion" name="posittion" required>
+
+                <label for="edit"><b>Player value</b></label>
+                <input type="value" placeholder="Value" name="value" required>
+
+                <hr>
+
+                <button type="submit" class="registerbtn">EDIT</button>
+            </div>
+        </form>
+    </div>
+    <div id="search" style="display: none">
+        <form class="example" action="action_page.php">
+            <div class="container-search">
+                <input type="text" placeholder="Nhập tên cầu thủ muốn tìm" name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </div>
+        </form>
+    </div>
+</div>
+<!--<script>-->
+<!--    function displayform() {-->
+<!--        document.getElementById('container-add').style.display = 'block';-->
+<!--    }-->
+<!--</script>-->
+</body>
+</html>

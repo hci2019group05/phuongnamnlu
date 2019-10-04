@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: mintcream;
+}
+
+.container {
+    margin-top: 0px;
+}
+
+.head {
+    text-align: center;
+    color: dodgerblue;
+}
+
+.download-paper {
+    float: right;
+    margin-right: -90px;
+    margin-top: -300px;
+}
+
+.download-figma {
+    float: right;
+    margin-right: -90px;
+    margin-top: -340px;
+}
+
+.download-all {
+    float: right;
+    margin-right: -115px;
+}
+
+.btn {
+    background-color: aquamarine;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: aqua;
+}
+
+.tab-content {
+    margin-left: -15px;
+    margin-top: -25px;
+}
+
+p {
+    font-size: 18px;
+    font-family: Tahoma;
+}
+
+#de {
+    margin-top: -130px;
+}
