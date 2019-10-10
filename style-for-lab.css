@@ -17,19 +17,19 @@ body {
 
 .download-paper {
     float: right;
-    margin-right: -90px;
-    margin-top: -300px;
+    margin-right: 0px;
+    margin-top: -280px;
 }
 
 .download-figma {
     float: right;
-    margin-right: -90px;
-    margin-top: -340px;
+    margin-right: 0px;
+    margin-top: -320px;
 }
 
 .download-all {
     float: right;
-    margin-right: -115px;
+    margin-right: -30px;
 }
 
 .btn {
@@ -45,16 +45,17 @@ body {
     background-color: aqua;
 }
 
-.tab-content {
-    margin-left: -15px;
-    margin-top: -25px;
-}
+/*.tab-content {*/
+/*    margin-left: -15px;*/
+/*    margin-top: -25px;*/
+/*}*/
 
 p {
     font-size: 18px;
     font-family: Tahoma;
 }
 
-#de {
-    margin-top: -130px;
+#re ul li {
+    list-style: none;
+    margin-left: 30px;
 }
