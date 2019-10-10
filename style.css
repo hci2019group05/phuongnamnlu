@@ -42,7 +42,7 @@ body {
 
 ul {
 	padding: 0;
-	margin: 0;
+	margin-left: 60px;
 }
 
 ul li {
@@ -78,13 +78,14 @@ h1 {
 	font-size: 38px;
 }
 
-h2 {  
-	font-size: 32px; 
+h3 {
+	font-size: 25px;
 	line-height: 1.13; 
 }
 
 h3 {  
-	font-size: 26px;  
+	font-size: 26px;
+	margin-left: 30px;
 }
 
 h4 {  
@@ -926,7 +927,7 @@ button:focus {
 .mu-contact-content{
 	display: inline;
 	float: left;
-	margin-top: 50px;
+	margin-top: 110px;
 	padding: 0 120px;
 	width: 100%;
 }

@@ -1,23 +1,51 @@
-body{
+body {
     padding: 0px;
     margin: 0px;
     /*font-family: Tahoma,Arial,sans-serif;*/
-    background: #dddddd;
+    background: white;
 }
-*{
+
+* {
     box-sizing: border-box;
 }
-.paragraph h1{
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: #4CAF50;
+}
+
+.wrapper .nav-right input{
+    float: left;
+    width: 500px;
+    margin-left: 500px;
+    border-radius: 8px;
+}
+.wrapper .table-content .table-editable{
+    width: 900px;
+    height: auto;
+    margin: auto;
+    border: 2px solid black ;
+    margin-top: 140px;
+}
+.top-box .header-button{
+    margin-top: 20px;
+    margin-left: -34px;
+}
+.paragraph h1 {
     color: #4CAF50;
     text-align: center;
     font-family: cursive;
 }
-.icon{
+
+.icon {
     float: right;
-    margin-right: 600px;
-    margin-top: -53px;
+    margin-right: 550px;
+    margin-top: -63px;
+    font-size: x-large;
 }
-p{
+
+p {
     text-align: center;
     width: 700px;
     margin: auto;
@@ -25,16 +53,19 @@ p{
     padding-top: 25px;
     font-size: 25px;
 }
+
 .fa-futbol:before {
     content: "\f1e3";
     color: #4CAF50;
     font-size: xx-large;
 }
-.center-box{
+
+.center-box {
     margin: auto;
     text-align: center;
 }
-.header-button button{
+
+.header-button button {
     width: 100px;
     height: 60px;
     margin-left: 30px;
@@ -46,22 +77,35 @@ p{
     color: black;
     font-size: 16px;
 }
-button:hover{
+
+button:hover {
     opacity: 1;
 }
-.container-add,.container-del,.container-edit,.container-search{
+
+.container-add, .container-del, .container-edit, .container-search {
     padding: 16px;
     width: 700px;
     margin: auto;
 }
-.container-add,.container-del,.container-edit,.container-search h1{
+
+.container-add, .container-del, .container-edit, .container-search h1 {
     color: #4CAF50;
 }
-h1{
+
+h1 {
     text-align: center;
     color: #4CAF50;
 }
+
 input[type=text], input[type=age], input[type=posittion], input[type=value] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+select{
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
@@ -77,6 +121,7 @@ hr {
     border: 1px solid #f1f1f1;
     margin-bottom: 25px;
 }
+
 .registerbtn {
     background-color: #4CAF50;
     color: white;
@@ -87,12 +132,14 @@ hr {
     width: 100%;
     opacity: 0.9;
     font-weight: bold;
-    font-size:20px;
+    font-size: 20px;
 }
+
 .registerbtn:hover {
     opacity: 1;
 }
-#search button{
+
+#search button {
     float: right;
     margin-right: -50px;
     width: 50px;

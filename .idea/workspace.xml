@@ -11,18 +11,18 @@
   <component name="ProjectId" id="1Rj4jvYfVhBZCIjO5hDUzwCixeR" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/implement" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\COMPUTER\Desktop\Myweb" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\implement" />
       <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\img" />
       <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\17130128_design" />
       <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\lab1_2" />
       <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\lab1_1" />
-      <recent name="C:\Users\COMPUTER\Desktop\markups-kevin\assets\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\COMPUTER\Desktop\Myweb" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -52,7 +52,9 @@
       <workItem from="1570181311133" duration="106000" />
       <workItem from="1570534874240" duration="4550000" />
       <workItem from="1570590024970" duration="7242000" />
-      <workItem from="1570667612559" duration="709000" />
+      <workItem from="1570667612559" duration="1375000" />
+      <workItem from="1570675388022" duration="1255000" />
+      <workItem from="1570724169511" duration="1725000" />
     </task>
     <servers />
   </component>
