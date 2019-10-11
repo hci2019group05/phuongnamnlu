@@ -1,0 +1,96 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Tahoma, sans-serif;
+}
+
+h3 {
+    font-size: x-large;
+}
+
+.price{
+    margin-left: 75px;
+}
+
+input {
+    margin-left: 75px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+select {
+    width: 145px;
+    margin-left: 75px;
+    border-radius: 3px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    border-style: none;
+    background-color: darksalmon;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: red;
+}
+.button-sell{
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.button-sell .but-1{
+    float: left;
+}
+.button-sell .but-2 {
+    margin-left: 230px;
+}
+.icon{
+    float: left;
+    margin-left: 5px;
+}
+.right-content {
+    float: right;
+    margin-right: 200px;
+}
+
+.right-content .box-price {
+    margin-left: 60px;
+    margin-top: 60px;
+    color: red;
+    background-color: #dddddd;
+    width: 495px;
+    padding-left: 50px;
+}
+
+.table {
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.pic-top img {
+    width: 450px;
+    height: 400px;
+}
+
+.pic-top {
+    margin-top: 40px;
+    margin-left: 200px;
+}
+
+.pic-bottom img {
+    width: 130px;
+    height: 170px;
+}
+
+.pic-bottom .pic-1 {
+    float: left;
+    margin-left: 200px;
+}
+
+.pic-bottom .pic-2 {
+    margin-left: 360px;
+}
+
+.pic-bottom .pic-3 {
+    margin-top: -172px;
+    margin-left: 520px;
+}

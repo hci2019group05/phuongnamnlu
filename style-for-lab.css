@@ -31,6 +31,20 @@ body {
     float: right;
     margin-right: -30px;
 }
+.download-paper-lab2{
+    float: right;
+    margin-right: 500px;
+    margin-top: 0px;
+}
+.download-figma-lab2{
+    float: right;
+    margin-right: 500px;
+    margin-top: 0px;
+}
+.download-all-lab2{
+    float: right;
+    margin-right: 480px;
+}
 
 .btn {
     background-color: aquamarine;
