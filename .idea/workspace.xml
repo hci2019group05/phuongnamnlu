@@ -11,7 +11,7 @@
   <component name="ProjectId" id="1Rj4jvYfVhBZCIjO5hDUzwCixeR" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/implement-lab2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -56,7 +56,8 @@
       <workItem from="1570675388022" duration="1255000" />
       <workItem from="1570724169511" duration="1725000" />
       <workItem from="1570760835909" duration="59000" />
-      <workItem from="1570780309660" duration="10642000" />
+      <workItem from="1570780309660" duration="10837000" />
+      <workItem from="1570813359642" duration="270000" />
     </task>
     <servers />
   </component>
