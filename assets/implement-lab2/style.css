@@ -16,12 +16,15 @@ input {
     margin-left: 75px;
     height: 30px;
     border-radius: 3px;
+
 }
 
 select {
-    width: 145px;
+    width: 180px;
     margin-left: 75px;
     border-radius: 3px;
+    height:36px;
+    margin-bottom: 10px;
 }
 button{
     width: 200px;

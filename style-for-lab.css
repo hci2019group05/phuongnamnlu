@@ -16,41 +16,30 @@ body {
 }
 
 .download-paper {
-    float: right;
-    margin-right: 0px;
-    margin-top: -280px;
+    margin-top: 20px;
 }
 
 .download-figma {
-    float: right;
-    margin-right: 0px;
-    margin-top: -320px;
+    margin-top: 20px;
 }
 
 .download-all {
-    float: right;
-    margin-right: -30px;
+    margin-top: 20px;
 }
 .download-paper-lab2{
-    float: right;
-    margin-right: 500px;
-    margin-top: 0px;
+    margin-top: 20px;
 }
 .download-figma-lab2{
-    float: right;
-    margin-right: 500px;
-    margin-top: 0px;
+    margin-top: 20px;
 }
 .download-all-lab2{
-    float: right;
-    margin-right: 480px;
+    margin-top: 20px;
 }
 
 .btn {
-    background-color: aquamarine;
+    background-color: #339999;
     border: none;
     color: white;
-    padding: 12px 30px;
     cursor: pointer;
     font-size: 20px;
 }
@@ -77,3 +66,4 @@ p {
 iframe{
     margin-left: -220px;
 }
+
