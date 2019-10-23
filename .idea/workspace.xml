@@ -12,6 +12,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -19,18 +20,23 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../markups-kevin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web-nhom" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\img" />
-      <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\implement-lab2\img" />
-      <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master" />
-      <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\17130128_design_lab2" />
-      <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\17130128_design" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\js" />
+      <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\css" />
+      <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\lib" />
+      <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\implement-lab3-1" />
       <recent name="C:\Users\COMPUTER\Desktop\Myweb" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\17130128_design_lab3_2" />
+      <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\17130128_design_lab3_1" />
+      <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\img" />
+      <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\implement-lab3" />
+      <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\implement-lab3-1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -67,7 +73,9 @@
       <workItem from="1570780309660" duration="10837000" />
       <workItem from="1570813359642" duration="514000" />
       <workItem from="1570813935319" duration="638000" />
-      <workItem from="1571308471164" duration="10749000" />
+      <workItem from="1571308471164" duration="11559000" />
+      <workItem from="1571750130694" duration="3106000" />
+      <workItem from="1571816354882" duration="20752000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sniglet', arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: #7a7a7a;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+.section_header {
+    height: 120px;
+    border-bottom-style: outset;
+    border-top: 4px solid black;
+    background-color: #F1F1F1;
+}
+
+.section_header .container p.call_icon {
+    width: 300px;
+    margin-top: 6px;
+    position: absolute;
+    left: 100%;
+    margin-left: -380px;
+}
+
+.section_header .container span.call_us {
+    color: #797979;
+    font-size: 12px;
+}
+
+.section_header .navbar-section_header {
+    height: 90px;
+}
+
+.section_header .navbar-section_header a {
+    margin-top: 10px;
+}
+
+.section_header .navbar ul.navbar-nav {
+    width: 600px;
+    height: 58px;
+    margin-top: 15px;
+}
+
+.section_header .navbar ul li {
+    float: left;
+    list-style: none;
+}
+
+.section_header .navbar ul li > a {
+    font-size: 19px;
+    font-weight: 500;
+    text-shadow: none;
+    margin-top: 40px;
+    padding: 0px;
+    color: black;
+    height: 40px;
+}
+
+.section_header .navbar ul li > a:hover {
+    text-decoration: none;
+    color: #FF0000;
+}
+
+.section_header .navbar ul li:hover a.menu-main {
+    color: #FF0000;
+    background-color: #F1F1F1;
+}
+
+.section_header .navbar ul li:hover a.menu-main:first-child {
+    border-bottom: 3px solid #FF0000;
+}
+
+.section_header .sub ul {
+    position: absolute;
+    visibility: hidden;
+    background: white;
+    border-top: 0px solid #FF0000;;
+    z-index: 10000;
+}
+
+.section_header .sub:hover ul {
+    visibility: visible;
+}
+
+.section_header .sub ul li {
+    float: none;
+    height: 30px;
+    padding-left: 10px;
+    width: 160px;
+    border: 1px solid #c9c9c9;
+    border-collapse: collapse;
+}
+
+.section_header .sub ul li a {
+    line-height: 0;
+    color: black;
+    font-size: 14px;
+    height: 30px;
+}
+
+.section_content .content-row-1 {
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.section_content img {
+    float: left;
+    cursor: pointer;
+}
+
+.section_content .para {
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    width: 40%;
+}
+
+.section_content .para p {
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.section_content .para p:hover {
+    color: red;
+    cursor: pointer;
+
+}
+
+.section_content .para span {
+    font-size: 12px;
+    font-family: Roboto;
+}
+
+.section_content .right {
+    position: absolute;
+    right: 12%;
+    top: 27%;
+    width: 25%;
+}
+
+.section_content .right .tittle {
+    background-color: red;
+}
+
+.section_content .right .tittle p {
+    font-family: Roboto;
+    font-size: 19px;
+    color: white;
+}
+
+.section_content .right .para-text {
+    border-bottom: 1px dashed;
+    padding-top: 28px;
+}
+
+.section_content .right .para-text p {
+    font-family: Roboto;
+    font-size: 15px;
+}
