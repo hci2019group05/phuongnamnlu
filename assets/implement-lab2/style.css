@@ -8,7 +8,7 @@ h3 {
     font-size: x-large;
 }
 
-.price{
+.price {
     margin-left: 75px;
 }
 
@@ -16,17 +16,17 @@ input {
     margin-left: 75px;
     height: 30px;
     border-radius: 3px;
-
 }
 
 select {
-    width: 158px;
+    width: 145px;
     margin-left: 75px;
     border-radius: 3px;
-    height:36px;
+    height: 36px;
     margin-bottom: 10px;
 }
-button{
+
+button {
     width: 200px;
     height: 50px;
     border-style: none;
@@ -34,23 +34,29 @@ button{
     border-radius: 5px;
     color: white;
 }
-button:hover{
+
+button:hover {
     background-color: red;
 }
-.button-sell{
+
+.button-sell {
     margin-top: 60px;
     margin-left: 60px;
 }
-.button-sell .but-1{
+
+.button-sell .but-1 {
     float: left;
 }
+
 .button-sell .but-2 {
     margin-left: 230px;
 }
-.icon{
+
+.icon {
     float: left;
     margin-left: 5px;
 }
+
 .right-content {
     float: right;
     margin-right: 200px;
