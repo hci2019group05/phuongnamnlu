@@ -20,23 +20,23 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web-nhom" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/implement-lab4/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\implement-lab4\img" />
+      <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\17130128_design_lab3_2" />
+      <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\17130128_design_lab3_1" />
+      <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\img" />
+      <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\implement-lab3" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\js" />
       <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\css" />
       <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\lib" />
       <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\implement-lab3-1" />
       <recent name="C:\Users\COMPUTER\Desktop\Myweb" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\17130128_design_lab3_2" />
-      <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\17130128_design_lab3_1" />
-      <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\img" />
-      <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\implement-lab3" />
-      <recent name="C:\Users\COMPUTER\Desktop\phuongnamnlu-master\assets\implement-lab3-1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -76,6 +76,10 @@
       <workItem from="1571308471164" duration="11559000" />
       <workItem from="1571750130694" duration="3106000" />
       <workItem from="1571816354882" duration="20752000" />
+      <workItem from="1571884845140" duration="115000" />
+      <workItem from="1571887083823" duration="100000" />
+      <workItem from="1572962781994" duration="6600000" />
+      <workItem from="1573036502826" duration="4963000" />
     </task>
     <servers />
   </component>
