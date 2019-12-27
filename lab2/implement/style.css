@@ -1,0 +1,111 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Arial", sans-serif;
+}
+
+h3 {
+    font-size: x-large;
+}
+
+.price {
+    margin-left: 75px;
+}
+
+input {
+    height: 30px;
+    border-radius: 3px;
+}
+
+select {
+    width: 145px;
+    border-radius: 3px;
+    height: 36px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-style: none;
+    /*background-color: #ff2424;*/
+    border-radius: 5px;
+    color: white;
+}
+
+button:hover {
+    /*background-color: red;*/
+}
+
+.button-sell {
+    margin-top: 30px;
+
+}
+
+.button-sell .but-1 {
+    float: left;
+
+}
+
+.button-sell .but-1 button {
+    font-size: 16px;
+}
+
+.button-sell .but-2 {
+    margin-left: 230px;
+}
+
+.button-sell .but-2 button {
+    font-size: 16px;
+
+}
+
+.icon {
+    float: left;
+    margin-left: 5px;
+}
+
+.right-content {
+    float: right;
+    margin-right: 260px;
+}
+
+.right-content .box-price {
+    color: red;
+    background-color: #dddddd;
+    width: 95%;
+    padding-left: 50px;
+    border-radius: 8px;
+}
+
+.table {
+    /*margin-left: 60px;*/
+    margin-top: 60px;
+}
+
+.pic-top img {
+    width: 450px;
+    height: 400px;
+}
+
+.pic-top {
+    margin-top: 40px;
+    /*margin-left: 200px;*/
+}
+
+.pic-bottom img {
+    width: 130px;
+    height: 170px;
+}
+
+.pic-bottom .pic {
+   padding-right: 30px;
+}
+
+.pic-bottom .pic-2 {
+    /*margin-left: 360px;*/
+}
+
+.pic-bottom .pic-3 {
+    /*margin-top: -171px;*/
+    /*margin-left: 520px;*/
+}

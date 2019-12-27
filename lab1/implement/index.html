@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../../lib/css/all.min.css">
+    <link rel="stylesheet" href="style1.css">
+
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../vendors/linericon/style.css">
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../css/magnific-popup.css">
+    <link rel="stylesheet" href="../../vendors/nice-select/css/nice-select.css">
+
+</head>
+<body>
+<div class="container">
+    <div class="wrapper">
+        <div class="container">
+            <div class="col-12">
+                <h1>WIKISHOES</h1>
+            </div>
+            <div class="col-12 w-50 m-auto ">
+                <input type="text"  class="form-control-range rounded" placeholder="Tìm kiếm ..." name="search">
+                <div class="icon">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="table-content">
+            <div class="table-editable">
+                <table class="table table-bordered table-responsive-md table-striped text-center">
+                    <thead>
+                    <tr>
+                        <th class="text-center">STT</th>
+                        <th class="text-center">NAME</th>
+                        <th class="text-center">COLOR</th>
+                        <th class="text-center">BRAND</th>
+                        <th class="text-center">PRICE(USD)</th>
+                        <th class="text-center">ACTION</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Prophere</td>
+                        <td>Trắng-Xám</td>
+                        <td>Nike</td>
+                        <td>100</td>
+                        <td>
+                            <button type="button" onclick="document.getElementById('edit').style.display='block';document.getElementById('add').style.display='none'"><i class="far fa-edit"></i></button>
+                            <button><i class="far fa-trash-alt"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>McQueen</td>
+                        <td>Trắng</td>
+                        <td>Alexander McQueen</td>
+                        <td>119</td>
+                        <td>
+                            <button type="button" onclick="document.getElementById('edit').style.display='block';document.getElementById('add').style.display='none'"><i class="far fa-edit"></i></button>
+                            <button><i class="far fa-trash-alt"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Gucci</td>
+                        <td>Đen-Đỏ</td>
+                        <td>Gucci</td>
+                        <td>799</td>
+                        <td>
+                            <button type="button" onclick="document.getElementById('edit').style.display='block';document.getElementById('add').style.display='none'"><i class="far fa-edit"></i></button>
+                            <button><i class="far fa-trash-alt"></i></button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="top-box">
+        <div class="center-box">
+            <div class="header-button">
+                <button type="button" class="btn btn-primary"
+                        onclick="document.getElementById('add').style.display='block';document.getElementById('edit').style.display='none'">
+                    ADD
+                </button>
+                <button type="button" class="btn btn-primary"
+                        onclick="document.getElementById('edit').style.display='block'; document.getElementById('add').style.display='none'">
+                    EDIT
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="add" style="display: none">
+        <form action="">
+            <div class="container-add">
+                <label for="add"><b>Name</b></label>
+                <input type="text" name="name" class="form-control">
+
+                <label for="add"><b>Size</b></label>
+                <select class="form-control">
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                    <option value="41">41</option>
+                    <option value="42">42</option>
+                    <option value="43">43</option>
+                </select>
+
+                <label for="add"><b>Color</b></label>
+                <input type="text" name="color" class="form-control">
+
+                <label for="add"><b>Brand</b></label>
+                <input type="text" name="brand" class="form-control">
+
+                <label for="add"><b>Price</b></label>
+                <input type="text" name="brand" class="form-control">
+
+                <hr>
+
+                <button type="submit" class="registerbtn btn btn-lg rounded font-weight-bold">ADD</button>
+            </div>
+        </form>
+    </div>
+    <div id="edit" style="display: none">
+        <form action="">
+            <div class="container-edit">
+
+                <label for="edit"><b>Name</b></label>
+                <input type="text" name="name" class="form-control">
+
+                <label for="edit"><b>Size</b></label>
+                <select class="form-control">
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                    <option value="41">41</option>
+                    <option value="42">42</option>
+                    <option value="43">43</option>
+                </select>
+
+                <label for="edit"><b>Color</b></label>
+                <input type="text" name="color" class="form-control">
+
+                <label for="edit"><b>Brand</b></label>
+                <input type="value" name="brand" class="form-control">
+
+                <label for="edit"><b>Price</b></label>
+                <input type="text" name="price" class="form-control">
+                <hr>
+
+                <button type="submit" class="registerbtn btn btn-lg rounded font-weight-bold">EDIT</button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
